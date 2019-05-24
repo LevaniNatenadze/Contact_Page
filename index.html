@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600&display=swap" rel="stylesheet">
+
+  <!-- js -->
+  <script async src="js/app.js"></script>
+  <!-- Css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navigation">
+      <div class="header-logo">
+        <a href="#" class="logo">
+          <img src="img/logo.svg" alt="">
+        </a>
+      </div>
+
+      <div class="header-toggler">
+        <span class="toggle-text">Menu</span>
+        <button class="hamburger">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+      <div class="overlay">
+        <ul class="menu">
+          <li class="menu-list"><a href="#">Home</a></li>
+          <li class="menu-list"><a href="#">About</a></li>
+          <li class="menu-list"><a href="#">Our Process</a></li>
+          <li class="menu-list"><a href="#">Services</a></li>
+          <li class="menu-list"><a href="#">Work</a></li>
+          <li class="menu-list"><a href="#">Blog</a></li>
+          <li class="menu-list active"><a href="#">Contact</a></li>
+        </ul>
+        <div class="social">
+          <ul class="social-menu">
+            <li class="social-list"><a href="#">
+                <img src="img/menu-icons/facebook.svg" alt="">
+              </a></li>
+            <li class="social-list"><a href="#">
+                <img src="img/menu-icons/twitter.svg" alt="">
+              </a></li>
+            <li class="social-list"><a href="#">
+                <img src="img/menu-icons/in.svg" alt="">
+              </a></li>
+            <li class="social-list"><a href="#">
+                <img src="img/menu-icons/instagram.svg" alt="">
+              </a></li>
+            <li class="social-list"><a href="#">
+                <img src="img/menu-icons/be.svg" alt="">
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header-content">
+      <div class="my-container container-content">
+        <div class="header-content-left">
+          <h1 class="content-heading">
+            contact
+          </h1>
+          <div class="breadcrumb">
+            <ol>
+              <li class="home">
+                <a href="#">
+                  <span class="svg-icon">
+                    <img src="img/icon-home.svg" alt="">
+                  </span>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li class="thisPageName">
+                <span>Contact</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="header-content-right">
+          <p>
+            We’ll give you clear information,
+            creative solutions and straight
+            answers to your questions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="avatar">
+    <div class="my-container container-content m-avatar">
+      <div class="avatar-content-left avatar-box">
+        <img src="img/blank-avatar.png" alt="" width="200" height="200" id="avatarImg">
+      </div>
+      <div class="avatar-content-right avatar-box text-left">
+        <span class="avatar-text-content">
+          <p class="anim-typewriter txt-avatar">
+            CHOOSE YOUR OWN AVATAR...
+          </p>
+        </span>
+        <div class="input-avatar">
+            <input type="file" id="real-input" hidden="hidden">
+            <button type="button" id="custom-button" class="custom-button">Browse...</button>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cards">
+    <div class="my-container">
+      <div class="row">
+        <div class="col-4 col-2 col-1">
+          <div class="card-box">
+            <div class="card-box-img">
+              <div class="svg-box zoom animated animate-it">
+                <img src="img/card-imgs/adress.svg" alt="">
+              </div>
+            </div>
+            <div class="card-box-content">
+              <strong>Address</strong>
+              <address>The Sharp Project, Thorp Road,
+                Manchester, M40 5BJ.</address>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-2 col-1">
+          <div class="card-box">
+            <div class="card-box-img">
+              <div class="svg-box zoom animated animate-it">
+                <img src="img/card-imgs/phone.svg" alt="">
+              </div>
+            </div>
+            <div class="card-box-content">
+              <strong>+44 (0) 161 818 6861</strong>
+              <p>Monday - Friday <br />
+                08:00 - 16:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-2 col-1">
+          <div class="card-box">
+            <div class="card-box-img">
+              <div class="svg-box zoom animated animate-it">
+                <img src="img/card-imgs/mail.svg" alt="">
+              </div>
+            </div>
+            <div class="card-box-content">
+              <strong>hello@radicalwebdesign.co.uk</strong>
+              <p>E-mail us directly or use <br />
+                the enquiry form below.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-2 col-1">
+          <div class="card-box">
+            <div class="card-box-img">
+              <div class="svg-box zoom animated animate-it">
+                <img src="img/card-imgs/social-media.svg" alt="">
+              </div>
+            </div>
+            <div class="card-box-content">
+              <strong>Social Media</strong>
+              <a href="#" class="social-link fb">Facebook profile »</a>
+              <a href="#" class="social-link insta">Instagram profile »</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="my-container">
+      <h2 class="section-title heading">Let's get started</h2>
+      <form id="form" class="contact-form" name="form" method="POST">
+        <div class="main-form">
+          <div class="row">
+            <div class="col-1 col-3">
+              <div class="inputField">
+                <input type="text" id="name" class="form-input" title="helllllo">
+                <br />
+                <label for="name" class="label">
+                  Your name <span>*</span>
+                </label>
+                <span id="Alert" class="Alert"></span>
+              </div>
+            </div>
+            <div class="col-1 col-3">
+              <div class="inputField">
+                <input type="email" id="mail" class="form-input">
+                <br />
+                <label for="mail" class="label">
+                  E-mail address <span>*</span>
+                </label>
+                <span id="Alert1" class="Alert"></span>
+              </div>
+            </div>
+            <div class="col-1 col-3">
+              <div class="inputField">
+                <input type="text" id="phone" class="form-input">
+                <br />
+                <label for="phone" class="label">Phone number</label>
+              </div>
+            </div>
+
+            <div class="col-3 col-1 col-2">
+              <div class="inputField">
+                <input type="text" id="company" class="form-input">
+                <label for="company" class="label">Company/Organization</label>
+              </div>
+            </div>
+            <div class="col-1 col-6 col-2">
+              <div class="inputField">
+                <input type="url" id="Url" class="form-input">
+                <label for="Url" class="label">Current website URL</label>
+              </div>
+            </div>
+
+            <div class="col-1">
+              <div class="inputField">
+                <textarea name="your-text" id="About" cols="40" rows="10" class="textArea"></textarea>
+                <label for="About" id="textAreaId" class="label">
+                  How can we help?
+                  <span>*</span>
+                </label>
+                <span id="Alert3" class="Alert"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-form" id="clickQuestion">
+          <a href="#clickQuestion" class="more-questions" role="button">
+            <span class="question">Do you have time for three more questions?</span>
+            <span class="optional">(optional)</span>
+          </a>
+        </div>
+        <div class="more-options" id="options">
+          <div class="summery">
+            <div class="row">
+              <div class="col-2 col-1">
+                <div class="summery-timeframe">
+                  <h4>Timeframe <span>(approximate)</span></h4>
+                  <div class="Field">
+                    <label for="timeframe" class="forscreen">
+                      Tell us about your timescale or deadline
+                    </label>
+                    <input type="text" id="timeframe">
+                  </div>
+                </div>
+              </div>
+              <div class="col-1 col-2">
+                <div class="summery-budget">
+                  <h4>Budget <span>(approximate)</span></h4>
+                  <div class="Field">
+                    <label for="budget" class="forscreen">
+                      Budget
+                    </label>
+                    <input type="text" id="budget">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4>How did you find out about us?</h4>
+          <div class="types">
+            <span class="checkbox">
+              <span class="list-item">
+                <input type="checkbox" class="hidden" id="option-google" value="Google">
+                <label for="option-google">
+                  <span>Google</span>
+                </label>
+              </span>
+              <span class="list-item">
+                <input type="checkbox" class="hidden" name="Bing" id="option-bing">
+                <label for="option-bing"><span>Bing</span></label>
+              </span>
+              <span class="list-item">
+                <input type="checkbox" class="hidden" name="Facebook" id="option-fb">
+                <label for="option-fb"><span>Facebook</span></label>
+              </span>
+              <span class="list-item">
+                <input type="checkbox" class="hidden" name="LinkedIn" id="option-LinkedIn">
+                <label for="option-LinkedIn"><span>LinkedIn</span></label>
+              </span>
+              <span class="list-item">
+                <input type="checkbox" class="hidden" name="Magazine" id="option-Magazine">
+                <label for="option-Magazine"><span>Magazine</span></label>
+              </span>
+              <span class="list-item">
+                <input type="checkbox" class="hidden" name="Radio" id="option-Radio">
+                <label for="option-Radio"><span>Radio</span></label>
+              </span>
+              <span class="list-item">
+                <input type="checkbox" class="hidden" name="Recommendation" id="option-Recommendation">
+                <label for="option-Recommendation"><span>Recommendation</span></label>
+              </span>
+              <span class="list-item">
+                <input type="checkbox" class="hidden" name="Other" id="option-Other">
+                <label for="option-Other"><span>Other</span></label>
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="submitField">
+          <button class="button submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-company">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-2 col-1 col-6">
+            <p class="footer-company-name">Radical Web Design</p>
+            <address class="footer-company-address">
+              The Sharp Project, Thorp Road, Manchester, M40 5BJ.
+            </address>
+            <div class="footer-company-contact">
+              <a href="#" class="phone">
+                <span class="footer-svg"><img class="footer-img-svg" src="img/phone.svg" alt=""></span>
+                <span class="footer-contact">+44 (0) 161 818 6861</span>
+              </a>
+              <a href="#" class="mail">
+                <span class="footer-svg"><img src="img/mail.svg" class="footer-img-svg" alt=""></span>
+                <span class="footer-contact">hello@radicalwebdesign.co.uk</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-full col-2 col-1">
+            <div class="footer-social text">
+              <p class="footer-social-text">Follow us on social media</p>
+              <ul class="footer-social-list">
+                <li><a href=""><img src="img/footer-social/facebook.svg" alt=""></a></li>
+                <li><a href=""><img src="img/footer-social/twitter.svg" alt=""></a></li>
+                <li><a href=""><img src="img/footer-social/in.svg" alt=""></a></li>
+                <li><a href=""><img src="img/footer-social/instagram.svg" alt=""></a></li>
+                <li><a href=""><img src="img/footer-social/be.svg" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-6 col-2 col-1">
+            <div class="footer-copy-para">
+              <p>© Copyright 2019 - Radical Web Design Ltd.</p>
+              <p>
+                Company Registration No: 9579364.
+                <br class="br-block">
+                VAT Registration No: 213515446
+              </p>
+            </div>
+            <ul class="menu-footer">
+              <li class="menu-item">
+                <a href="#">Sitemap</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">Cookie Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-full col-2 col-1">
+            <div class="footer-backToTop">
+              <button id="back-to-top" class="back-to-top button blue-button" type="button">
+                <span>Top</span>
+                <span><img src="img/arrow-up.svg" alt=""></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
